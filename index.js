@@ -1,4 +1,4 @@
-const inputSlider = document.querySelector("[data-lengthSlider]");
+Jconst inputSlider = document.querySelector("[data-lengthSlider]");
 const lengthDisplay = document.querySelector("[data-lengthNumber]");
 const passwordDisplay = document.querySelector("[data-passwordDisplay]");
 const copyBtn = document.querySelector("[data-copy]");
@@ -45,11 +45,11 @@ function generateRandomNumber() {
 }
 
 function generateUpperCase() {
-    return String.fromCharCode(getRandomInteger(97, 123));
+    return String.fromCharCode(getRandomInteger(65, 91));
 }
 
 function generateLowerCase() {
-    return String.fromCharCode(getRandomInteger(65, 91));
+    return String.fromCharCode(getRandomInteger(97, 123));
 }
 
 function generateSymbol() {
